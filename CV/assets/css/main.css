@@ -1,68 +1,4 @@
-html{
-    font-size: 100%;
-    font-family: 'Grenze', serif;
-    background: #abbaab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-h1 , h2, h3{
-    font-size: 2em;
-}
-header p{
-    margin:0%;
-}
-header{
-    
-    font-size: 1.5em;
-    text-align: center;
-    padding-bottom: 1%;
-    text-shadow: 3px 3px 2px #abbaab;
-}
-.EXPECTALAB P{
-    text-align: left;
-    padding-left: 4%;
-}
-.EXPECTALAB{
-    
-    float: left;
-    width: 35%;
-    text-align: center;
-    padding-top: 1%;
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 2%;
-    overflow: scroll;
-}
-img{
-    border-radius: 2%;
-    width: 95%;
-}
-header p{
-    display: inline-block;
-    padding-left: 3%;  
-}
-.ANTPER, .ANTACA, .EXPELAB{
-    color: #274046;
-    margin-bottom: 1%;
-    width: 55%;
-    margin-right: 1%;
-    float: right;
-    text-align: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    background: #FFEFBA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 2%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    overflow: scroll;
-}
 
-
-@media(min-Widht:500px){
     
     html{
         font-size: 100%;
@@ -124,7 +60,61 @@ header p{
         border-radius: 2%;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     }
+    @media(max-Width:500px){
   
+    header p{margin:0%;}
 
-}
+    header{
+        
+        font-size: 1.5em;
+        text-align: center;
+        padding-bottom: 1%;
+        text-shadow: 3px 3px 2px #abbaab;
+    }
+    .EXPECTALAB P{
+        text-align: left;
+        padding-left: 4%;
+    }
+    .EXPECTALAB{
+        
+        float: left;
+        width: 35%;
+        text-align: center;
+        padding-top: 1%;
+        background: #E6DADA;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 2%;
+        overflow: scroll;
+    }
+    img{
+        border-radius: 2%;
+        width: 95%;
+    }
+    header p{
+        display: inline-block;
+        padding-left: 3%;  
+    }
+    .ANTPER, .ANTACA, .EXPELAB{
+        color: #274046;
+        margin-bottom: 1%;
+        width: 53%;
+        margin-right: 1%;
+        float: right;
+        text-align: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        background: #FFEFBA;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 2%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        overflow: scroll;
+    }
+    
+}    
+
+
 
